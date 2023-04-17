@@ -1,6 +1,6 @@
 html {
-  font-family: sans-serif;
-  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 63.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -186,9 +186,22 @@ section {
 /* CONTACT STYLES */
 
 .form-rsvp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+
+.form-rsvp input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.rsvp {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
 }
 
 .flex-container {
@@ -264,7 +277,7 @@ section {
   font-size: 15px;
   outline: none;
   font-weight: 600;
-  color: #8d8e8f;
+  color: #00ff84;
   padding: 2% 1% 2% 7%;
   width: 80%;
   border-top: 1px solid #090b0d;
@@ -278,8 +291,8 @@ section {
   font-family: "Raleway", sans-serif;
 }
 
-.reservation inout[type="text"]:hover {
-  box-shadow: 0 0 18px red;
+.reservation input[type="text"]:hover {
+  box-shadow: 0 0 5px red;
 }
 
 .form-spacer {
@@ -387,7 +400,7 @@ section {
 
 .menu li {
   color: #000;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
   display: inline-block;
   margin: 0% auto;
   position: relative;
@@ -404,7 +417,7 @@ section {
 
 .menu li:hover {
   color: red;
-  background-color: rgba(100, 65, 0, 0.3);
+  background-color: rgba(100, 0, 0, 0.3);
 }
 
 /* GALLERY SECTION ANIMATION */
@@ -416,8 +429,6 @@ section {
   overflow: hidden;
   border-radius: 8px;
   padding: 1px;
-  border: 1px solid #021a40;
-  background-color: red;
   box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
 }
 
